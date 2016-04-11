@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+#header {
+    
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:60px;
+    background-color:#eeeeee;
+    height:600px;
+    width:120px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:900px;
+    float:left;
+    padding:10px; 
+}
+#section1 {
+    width:200px;
+    float:right;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+	clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+</style>
+<script type="text/javascript">
+function message()
+{
+alert("You have saved your detail's Succesfully.....Thank You!");
+}
+function f()
+{
+alert("You Have Clicked Cancel!")
+}
+</script>
+
+</head>
+<body >
+<div id="header"style="background:linear-gradient(orange,green);font-size:40pt;">
+<marquee><img style="images:left" src="logo.jpg" />SIDDHARTH INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1></marquee></div>
+<div id="nav">
+<i><a href="http://www.sietk.org/siddharth_aboutus.html">* About Us</a></i></br>
+<i><a href="https://jntuadap.ac.in/placementdet/F6/SDTN">* Placements</a></i></br>
+<i><a href="https://jntuadap.ac.in/collegeinformation/F6/SDTN">* Achievements</a></i></br>
+<i><a href="https://www.google.co.in/?gfe_rd=cr&ei=z537VpOiN4Kz8wfw2a-QAg#q=jntua+results">* Results</a></i></br>
+</div>
+<div id="section">
+<form>
+<h1 style=text-align:center;font-size:35pt><em><ins>Admission Form</ins></em></h1>
+ <h2><ins>Please Enter your Details</ins></h2>
+ <table>
+<tr>
+<td><b>* First Name </b></td>
+<td><input type="text"  required  maxlength="10" placeholder="Enter Name"  pattern="[a-za-z0-9]{4,10}" title="only alphabets are allowed"/></td></tr>
+<tr>
+<td><b>* Last Name</b> </td>
+<td><input type="text"  required  maxlength="10" placeholder="Enter Name"  pattern="[a-za-z0-9]{4,10}" title="only alphabets are allowed"/></td>
+</tr>
+<tr>
+<td><b>* Email</b></td>
+<td><input type="text"  required  maxlength="20" placeholder="Enter mail id"  title="Required Format .Ex:XXX@gmail.com" /></td></br>
+
+</tr>
+
+<tr>
+<td><b>* Gender</b></td>
+<td> <input type="radio" required name="gender"/><b>Male</b><input type="radio" required name="gender"/><b>Female</b></td></br>
+
+</tr>
+<tr><td><b>* Date of Birth</b></td><td><input type="date" name="Date of Birth" required/></td></tr>
+</table>
+<h2><ins>Language You Knows</ins></h2>
+<table>
+<tr>
+<input type="checkbox" required name="English" value="E"/>English<br>
+ <input type="checkbox" required name="Tamil" value="t"/>Tamil<br>
+<input type="checkbox" required name="Telugu" value="Telugu"/>Telugu<br>
+<input type="checkbox" required name="Hindi" value="Hindi"/>Hindi<br><input type="checkbox" name="Kannada" value="Kannada"/>Kannada<br/>
+<input type="checkbox" required name="kannada" value="kannada"/>kannada<br>
+
+
+<p><h2><ins>Select Your Graduation</ins></h2></p>
+<select multiple>
+<optgroup label="UnderGraduate">
+<option>1 B.E</option>
+<option>2 B.Tech</option>
+<optgroup label="PostGraduateGraduate">
+<option>3 M.E</option>
+<option>4 M.B.A</option>
+<option>5 M.C.A</option>
+</select>
+
+<p><h2><ins>Select the Department</ins></h2></p>
+<select multiple>
+<optgroup label="Department">
+<option>1 Aerounatical Engineering</option>
+<option>2 Computer Science</option>
+<option>3 Electrical and Electronic Engineering</option>
+<option>4 Electronic and Communication Engineering</option>
+<option>6 Mechanical Engineering</option>
+<option>7 Master Of Business Administration</option>
+<option>8 Master Of Computer Application</option>
+<option>9 Master Of Engineering</option>
+<option>5 Information Technology</option>
+</select>
+</br></br>
+<h2><ins>Educational Details</ins></h2>
+<table>
+<caption><h3><ins>Intermediate Details</h3></ins></caption>
+<tr><td>
+<b>Group </b><br/><input type="radio" required name="group"/>MPC</br><input type="radio" required name="group"/>CEC</br><input type="radio" required name="group"/>MEC</br><input type="radio" required name="group"/>BiPC</td> <td><b>College Name <input type="text" required/></td>
+<td><b>Percentage</b> <input type="number" required/></td><td>
+<b>Year of Passing </b><input type="years" required/></td></tr></table>
+<table><caption><h3><ins>SSLC Details</ins></h3></caption><tr><td>
+<b>School Name</b> <input type="text" required/></td><td>
+<b>Percentage</b> <input type="number" required/></td><td>
+<b>Year of Passing </b><input type="years" required/></td></tr></br>
+</table></br>
+<table><tr><td>
+<input type="submit" onclick="message()" value="Submit"/></td><td></td><td></td><td>
+<input type="button" onclick="f1()" value="Cancel"/></td>
+</tr>
+
+</table>
+</div><br><br>
+<div id="section1">
+<img src="images (1).jpg"/>
+<h3><b>Chairman:</b></h3>
+<h4>Dr.k.Ashok Raju</h4>
+</div>
+<div id="footer">
+<p>Copyright@SIET.com</>
+
+</div>
+</form>
+
+</body>
+</html>
